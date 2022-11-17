@@ -1,9 +1,8 @@
 <?php
 
     $a = $_POST['side_a'];
-    $b = $_POST['side_b'];
     $h = $_POST['height_h'];
-    $area = ( ($a + $b) /2 ) * $h;
+    $area =  ($a * $h)  ;
 
     //echo "พื้นที่สี่เหลี่ยมคางหมู<br>";
     //echo "ความยาวด้าน a = ".$a;
@@ -24,16 +23,14 @@
 </head>
 <body>
 <br>
-    <p>
+    <p style="color: blue; font-size: 16px">
         <?php
-           echo "พื้นที่สีเหลี่ยมคางหมู <br>";
-           echo "ความยาวด้าน a =".$a;
+           echo "พื้นที่สีเหลี่ยมด้านขนาน <br>";
+           echo "ความยาวฐาน a =".$a;
            echo "<br>";
-           echo "ความยาวด้าน b =".$b;
+           echo "ความยาว h =".$h;
            echo "<br>";
-           echo "ความยาวยาว h =".$h;
-           echo "<br>";
-           echo "มีพื้นที่ เท่ากับ".$area." ตร. หน่วย ";
+           echo "มีพื้นที่ เท่ากับ".$area." ตร. เซนติเมตร ";
 
        
         ?>

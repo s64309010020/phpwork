@@ -1,0 +1,9 @@
+.voice .attachment .img.chatAttachmentPreview{max-width:82%}
+.chatHighlight{animation-duration:3s;animation-iteration-count:1;animation-name:chatHighlightAnimation;animation-timing-function:linear;word-wrap:break-word}@keyframes chatHighlightAnimation{0%,100%{background-color:#fff}50%{background-color:#fff9d7}}
+#typing_indicator .ib{margin:0 -15px;padding:4px 0 0 30px;font-size:11px}#typing_indicator .img{float:left}
+._50h1 ._5cqb{margin-left:-4px;padding-bottom:5px;padding-left:0}.touch ._50h1 ._527y{font-size:14px;height:40px;line-height:38px;margin:0;padding-top:4px;width:40px}.touch ._50h1 ._3ci_ ._5y14,.touch ._50h1 ._3ciz ._5y14,.touch ._50h1 ._3cj0 ._5y14{display:inline-block}.touch ._50h1 ._3ci_ ._527y,.touch ._50h1 ._3ciz ._527y,.touch ._50h1 ._3cj0 ._527y{display:none}.touch ._50h1 ._5y14{display:none}.touch ._50h1 ._527y{display:inline-block}._4bb1{border-bottom:1px solid #fa3e3e;border-top:1px solid #fa3e3e;padding:8px}
+._44qk{border-bottom:1px solid #ebedf0}._44qk .presence_icon{margin:0;vertical-align:middle}._44ql{position:relative}._44qm{left:4px;position:absolute;top:4px}._44ql .selectBtn{background:none;border:none;height:28px;position:relative;text-indent:-1000px;vertical-align:top;width:28px;z-index:1}._32tz{white-space:nowrap}._5t1b{border-left:4px solid #df9e49;position:relative}
+.thread_image_attachment{max-height:100px;max-width:100px}
+.selectBtn{-webkit-appearance:button}/*FB_PKG_DELIM*/
+
+#bootloader_uFhnTy9{height:42px;}.bootloader_uFhnTy9{display:block!important;}

@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("MPrivacyDeferredSelector",["MRequest","MRequestTypes","MURI","Stratcom"],(function(a,b,c,d,e,f,g){var h=null,i=null,j=null,k=!1;function a(a,b,d,e){i=a,h=b,j=d,k=e,c("Stratcom").listen("MPrivacyDeferredSelector::init",null,function(a){l(a),c("Stratcom").removeCurrentListener()})}function l(a){a=new(c("MURI"))("/privacy/selector");a.setQueryData({pt_id:i,eco:h,selected:j,defaultSelector:!0,useSmallIcons:k});a=new(c("MRequest"))(a.toString());a.setType(d("MRequestTypes").DEPENDENT);a.send()}function b(a){c("Stratcom").invoke("MPrivacyDeferredSelector-loaded",null,{id:a})}g.init=a;g.informLoaded=b}),98);
+__d("CometRelayEnvironment",["RelayFBDefaultEnvironment"],(function(a,b,c,d,e,f,g){g["default"]=c("RelayFBDefaultEnvironment")}),98);
+__d("ghlTestUBTNoOp",[],(function(a,b,c,d,e,f){"use strict";a=function(a){};b=a;f["default"]=b}),66);

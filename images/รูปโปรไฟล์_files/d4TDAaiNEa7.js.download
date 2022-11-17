@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("MMessagesImpressionLogger",["MRequest"],(function(a,b,c,d,e,f,g){"use strict";function a(){var a=new(c("MRequest"))("/a/jewel_messages_read.php");a.send()}g.markSeenOnDisplay=a}),98);

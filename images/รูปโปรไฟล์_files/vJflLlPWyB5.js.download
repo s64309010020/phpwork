@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("MNTSearchAddRecentSearchActionHandler",["MRequest","XSearchAddRecentSearchEntityController"],(function(a,b,c,d,e,f,g){function a(a){new(c("MRequest"))().setURI(c("XSearchAddRecentSearchEntityController").getURIBuilder().setInt("entity_id",a.result_id).setString("search_text_to_delete",a.search_query_to_delete).getURI()).setMethod("POST").send()}g.performAction=a}),98);

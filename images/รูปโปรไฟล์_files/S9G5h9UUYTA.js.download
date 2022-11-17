@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("XSearchAddRecentSearchEntityController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/nt/recent_search/add_recent_search_entity/",{entity_id:{type:"Int",required:!0},search_text_to_delete:{type:"String"}})}),null);

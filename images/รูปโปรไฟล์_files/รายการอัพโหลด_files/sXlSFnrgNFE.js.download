@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("MNTHScrollSetAttributesHelper",["MScrollAreaHelper","getElementChildren"],(function(a,b,c,d,e,f,g){"use strict";function a(a){var b=d("MScrollAreaHelper").findScrollArea(document.getElementById(a["target-id"]));a=a["current-child-id"];for(var e=0;e<b.getNumChildren();e++){var f=c("getElementChildren")(b.getChildAtPageIndex(e));if(f.length>0){f=f[0];if(f.id===a){b.scrollToIndex(e);return["current-child-id"]}}}return[]}g.setAttributes=a}),98);
